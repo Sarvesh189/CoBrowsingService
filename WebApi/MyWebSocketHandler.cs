@@ -43,11 +43,11 @@ namespace WebApi
             {
                 socketMessage = serializer.Deserialize<SocketMessage>(lastmessage);
                 socketMessage.UserCount = groupclients.Count().ToString();
-                socketMessage.MessageType = "1";
-                foreach (var client in groupclients)
-                {
-                    client.Send(serializer.Serialize(socketMessage));
-                }
+                socketMessage.MessageType = "3";
+            ////    foreach (var client in groupclients)
+            //    {
+                    Send(serializer.Serialize(socketMessage));
+              //  }
             }
            
 
