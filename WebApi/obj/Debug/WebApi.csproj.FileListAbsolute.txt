@@ -89,3 +89,5 @@ D:\webSocketApi\WebApi\WebApi\bin\System.Web.Http.Owin.xml
 D:\webSocketApi\WebApi\WebApi\obj\Debug\WebApi.csprojResolveAssemblyReference.cache
 D:\webSocketApi\WebApi\WebApi\obj\Debug\WebApi.dll
 D:\webSocketApi\WebApi\WebApi\obj\Debug\WebApi.pdb
+D:\webSocketApi\WebApi\WebApi\bin\NLog.dll
+D:\webSocketApi\WebApi\WebApi\bin\NLog.xml
